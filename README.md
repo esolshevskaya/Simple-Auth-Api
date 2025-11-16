@@ -1,4 +1,4 @@
-# User Service
+# Simple Auth Api
 
 REST API для управления пользователями с авторизацией и ролями (админ и обычный пользователь).  
 Проект построен на Node.js, Express и Sequelize с SQLite базой данных.
@@ -185,3 +185,4 @@ sequelize.sync({ force: true }).then(() => {
     app.listen(3000, () => console.log("Server running on http://localhost:3000"));
 });
 ```
+
